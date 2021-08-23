@@ -1,8 +1,13 @@
 import './App.css';
-
+import Header from './Header'
+import AddContact from './AddContact'
+import ContactList from './ContactList'
 function App() {
   return (
-    <div><h1>Hello World</h1></div>
+    <div>
+    <Header/>
+    <AddContact/>
+    </div>
   );
 }
 
